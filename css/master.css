@@ -1,0 +1,32 @@
+/*! master.css | 主样式表 | 这里存放公共样式信息及样式配置等 */
+
+/* 内容列表  ======================================================= */
+    
+    /* 初始化样式引入 */
+    /* 公共主样式 */
+    /* 模块样式引入 */
+
+/* ========================================================================== */
+
+/* 初始化样式引入 */
+	@import url("normalize.css");
+	@import url("font.css");
+	@import url("layout.css");
+/* 初始化样式引入结束 */
+
+/* 公共主样式 */
+	body {
+	    background: url("../images/Textures/pattern4.png") repeat scroll 0 0 #f4f4f4;
+	}
+
+    .l-header {
+        background: url("../images/Textures/top_panel.png") repeat-x scroll 0 0 #f3f2f3;
+        border-bottom: 1px solid #DADADA;
+        box-shadow: 0 1px 0 #FCFCFC;
+    }
+/* 公共主样式结束 */
+
+/* 模块样式引入 */
+	@import url("firstpage.css");
+	@import url("management.css");
+/* 模块样式引入结束 */

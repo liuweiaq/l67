@@ -1,0 +1,62 @@
+/*! layout.css | 布局样式表 | 布局样式包含了显示属性;浮动;定位;宽度;高度;填充和边距 */
+
+/* 
+1.定位属性：position、top、bottom、left、right和z-index ；
+2.宽高和剪裁属性：width、height、clip、overflow；
+3.显示属性：Display、visibility、direction；
+4.浮动和清除：float、clear；
+5.line-height和vertical-align属性；
+*/
+
+
+/* 内容列表  ======================================================= */
+    
+    
+
+/* ========================================================================== */
+
+/* 总体布局(这里采用的是"三"字型布局) */
+    .l-header {
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .l-section {
+        margin: 60px auto 0;
+    }
+    .l-footer {
+        clear: both;
+        padding: 20px 0;
+        text-align: right;
+    }
+    .l-wrapper {
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1025px) {
+        .l-wrapper {
+            width: 1015px;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .l-wrapper {
+            width: 94%;
+        }
+    }
+    @media screen and (max-width: 800px){
+
+    }
+    @media screen and (max-width: 767px){
+
+    }
+    @media screen and (max-width: 700px){
+
+    }
+    @media screen and (max-width: 479px){
+        
+    }
+/* 总体布局结束 */
